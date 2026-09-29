@@ -1,0 +1,15 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789832944.451696   13266 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1789832944.452176   13266 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+I0000 00:00:1789832945.130865   13266 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789832947.663572   13266 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1789832947.664055   13266 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+/home/vittoriozanini/projects/python/myenv/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1381: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None.
+  warnings.warn(
+tcga: X (8643, 5291), 24 classes, train 6482 / test 2161, class_weight=balanced
+  lr   | bal.acc 0.9718 | acc 0.9764 | macro-F1 0.9722 | AUC 0.9997 | logloss 0.1079 | 0.1 min
+  rf   | bal.acc 0.9448 | acc 0.9560 | macro-F1 0.9484 | AUC 0.9986 | logloss 0.3979 | 0.5 min
+  xgb  | bal.acc 0.9675 | acc 0.9718 | macro-F1 0.9690 | AUC 0.9993 | logloss 0.1100 | 10.7 min
+saved results/baselines/tcga/summary.json

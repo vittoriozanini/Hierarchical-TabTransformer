@@ -1,0 +1,91 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789757044.932278   87392 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1789757044.932633   87392 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+I0000 00:00:1789757044.980783   87392 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789757046.162083   87392 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1789757046.162730   87392 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+E0000 00:00:1789757047.489429   87392 cuda_platform.cc:52] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+run: tcga_sum_s0_pilot
+TF 2.21.0, threads: auto
+X (8643, 5291), 24 classes, 218 pathways, n_max 150, train 6482 / test 2161
+train 5509 / val 973 / test 2161
+genes with all 6 bins: 94.9%
+parameters: 1,385,624 (bin table 1,015,872)
+Epoch 1/40
+   epoch 1: 386s, peak RSS 4.8 GB
+173/173 - 386s - 2s/step - accuracy: 0.1930 - loss: 2.7795 - val_accuracy: 0.5221 - val_loss: 1.8360 - learning_rate: 3.0000e-04 - epoch_time_s: 386.4252 - peak_rss_gb: 4.7687
+Epoch 2/40
+   epoch 2: 359s, peak RSS 4.8 GB
+173/173 - 359s - 2s/step - accuracy: 0.5631 - loss: 1.4700 - val_accuracy: 0.8325 - val_loss: 0.7865 - learning_rate: 3.0000e-04 - epoch_time_s: 358.8326 - peak_rss_gb: 4.7687
+Epoch 3/40
+   epoch 3: 356s, peak RSS 4.8 GB
+173/173 - 356s - 2s/step - accuracy: 0.7700 - loss: 0.7945 - val_accuracy: 0.8839 - val_loss: 0.4453 - learning_rate: 3.0000e-04 - epoch_time_s: 356.1460 - peak_rss_gb: 4.7687
+Epoch 4/40
+   epoch 4: 361s, peak RSS 4.8 GB
+173/173 - 361s - 2s/step - accuracy: 0.8600 - loss: 0.4845 - val_accuracy: 0.8551 - val_loss: 0.4409 - learning_rate: 3.0000e-04 - epoch_time_s: 360.8148 - peak_rss_gb: 4.7687
+Epoch 5/40
+   epoch 5: 347s, peak RSS 4.8 GB
+173/173 - 347s - 2s/step - accuracy: 0.9100 - loss: 0.3131 - val_accuracy: 0.9116 - val_loss: 0.2679 - learning_rate: 3.0000e-04 - epoch_time_s: 347.0682 - peak_rss_gb: 4.7696
+Epoch 6/40
+   epoch 6: 343s, peak RSS 4.8 GB
+173/173 - 343s - 2s/step - accuracy: 0.9403 - loss: 0.2248 - val_accuracy: 0.9178 - val_loss: 0.2729 - learning_rate: 3.0000e-04 - epoch_time_s: 342.9327 - peak_rss_gb: 4.7705
+Epoch 7/40
+
+Epoch 7: ReduceLROnPlateau reducing learning rate to 0.0001500000071246177.
+   epoch 7: 384s, peak RSS 4.8 GB
+173/173 - 384s - 2s/step - accuracy: 0.9508 - loss: 0.1777 - val_accuracy: 0.9065 - val_loss: 0.2872 - learning_rate: 3.0000e-04 - epoch_time_s: 384.0299 - peak_rss_gb: 4.7713
+Epoch 8/40
+   epoch 8: 342s, peak RSS 4.8 GB
+173/173 - 342s - 2s/step - accuracy: 0.9628 - loss: 0.1259 - val_accuracy: 0.9209 - val_loss: 0.2660 - learning_rate: 1.5000e-04 - epoch_time_s: 341.6912 - peak_rss_gb: 4.7722
+Epoch 9/40
+   epoch 9: 348s, peak RSS 4.8 GB
+173/173 - 348s - 2s/step - accuracy: 0.9751 - loss: 0.1032 - val_accuracy: 0.9353 - val_loss: 0.2211 - learning_rate: 1.5000e-04 - epoch_time_s: 348.2582 - peak_rss_gb: 4.7728
+Epoch 10/40
+   epoch 10: 346s, peak RSS 4.8 GB
+173/173 - 346s - 2s/step - accuracy: 0.9775 - loss: 0.0873 - val_accuracy: 0.9322 - val_loss: 0.2402 - learning_rate: 1.5000e-04 - epoch_time_s: 346.1304 - peak_rss_gb: 4.7734
+Epoch 11/40
+
+Epoch 11: ReduceLROnPlateau reducing learning rate to 7.500000356230885e-05.
+   epoch 11: 340s, peak RSS 4.8 GB
+173/173 - 340s - 2s/step - accuracy: 0.9822 - loss: 0.0758 - val_accuracy: 0.9373 - val_loss: 0.2246 - learning_rate: 1.5000e-04 - epoch_time_s: 340.1598 - peak_rss_gb: 4.7737
+Epoch 12/40
+   epoch 12: 338s, peak RSS 4.8 GB
+173/173 - 338s - 2s/step - accuracy: 0.9828 - loss: 0.0699 - val_accuracy: 0.9424 - val_loss: 0.2220 - learning_rate: 7.5000e-05 - epoch_time_s: 337.6270 - peak_rss_gb: 4.7737
+Epoch 13/40
+   epoch 13: 341s, peak RSS 4.8 GB
+173/173 - 341s - 2s/step - accuracy: 0.9880 - loss: 0.0567 - val_accuracy: 0.9435 - val_loss: 0.2118 - learning_rate: 7.5000e-05 - epoch_time_s: 341.3128 - peak_rss_gb: 4.7742
+Epoch 14/40
+   epoch 14: 340s, peak RSS 4.8 GB
+173/173 - 340s - 2s/step - accuracy: 0.9902 - loss: 0.0469 - val_accuracy: 0.9373 - val_loss: 0.2255 - learning_rate: 7.5000e-05 - epoch_time_s: 340.3026 - peak_rss_gb: 4.7746
+Epoch 15/40
+
+Epoch 15: ReduceLROnPlateau reducing learning rate to 3.7500001781154424e-05.
+   epoch 15: 372s, peak RSS 4.8 GB
+173/173 - 372s - 2s/step - accuracy: 0.9911 - loss: 0.0466 - val_accuracy: 0.9404 - val_loss: 0.2322 - learning_rate: 7.5000e-05 - epoch_time_s: 372.0077 - peak_rss_gb: 4.7921
+Epoch 16/40
+   epoch 16: 365s, peak RSS 4.9 GB
+173/173 - 365s - 2s/step - accuracy: 0.9926 - loss: 0.0440 - val_accuracy: 0.9404 - val_loss: 0.2181 - learning_rate: 3.7500e-05 - epoch_time_s: 365.0942 - peak_rss_gb: 4.8543
+Epoch 17/40
+
+Epoch 17: ReduceLROnPlateau reducing learning rate to 1.8750000890577212e-05.
+   epoch 17: 352s, peak RSS 4.9 GB
+173/173 - 352s - 2s/step - accuracy: 0.9920 - loss: 0.0393 - val_accuracy: 0.9414 - val_loss: 0.2198 - learning_rate: 3.7500e-05 - epoch_time_s: 351.7088 - peak_rss_gb: 4.8546
+Epoch 17: early stopping
+Restoring model weights from the end of the best epoch: 13.
+training: 100.3 min, 17 epochs, best epoch 13
+{
+ "balanced_accuracy": 0.930096366832768,
+ "accuracy": 0.945858398889403,
+ "macro_f1": 0.9336518173657687,
+ "macro_auc_ovr": 0.9980567154240428,
+ "log_loss": 0.23078401386737823,
+ "best_epoch": 13,
+ "epochs_trained": 17,
+ "train_time_min": 100.3,
+ "mean_epoch_time_s": 354.1,
+ "peak_rss_gb": 4.85,
+ "n_params": 1385624
+}
+saved to results/tcga_sum_s0_pilot/

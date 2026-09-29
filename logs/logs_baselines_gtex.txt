@@ -1,0 +1,15 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789833630.915316   18195 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1789833630.915845   18195 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+I0000 00:00:1789833630.976278   18195 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789833632.743218   18195 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1789833632.744413   18195 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+/home/vittoriozanini/projects/python/myenv/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1381: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None.
+  warnings.warn(
+gtex: X (6855, 5291), 28 classes, train 5141 / test 1714, class_weight=balanced
+  lr   | bal.acc 0.9580 | acc 0.9691 | macro-F1 0.9584 | AUC 0.9984 | logloss 0.2054 | 0.1 min
+  rf   | bal.acc 0.9397 | acc 0.9551 | macro-F1 0.9423 | AUC 0.9970 | logloss 0.3055 | 0.5 min
+  xgb  | bal.acc 0.9552 | acc 0.9679 | macro-F1 0.9566 | AUC 0.9973 | logloss 0.1453 | 8.2 min
+saved results/baselines/gtex/summary.json
