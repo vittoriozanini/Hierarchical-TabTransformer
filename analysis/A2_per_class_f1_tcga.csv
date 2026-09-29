@@ -1,0 +1,25 @@
+,s0,s1,s2,mean,sd,lr,gap_vs_lr
+Esophageal Carcinoma,0.824,0.892,0.815,0.843,0.042,0.909,-0.066
+Glioblastoma Multiforme,0.875,0.851,0.861,0.862,0.012,0.987,-0.125
+Cervical & Endocervical Cancer,0.852,0.868,0.877,0.866,0.013,0.922,-0.056
+Lung Squamous Cell Carcinoma,0.881,0.89,0.884,0.885,0.004,0.958,-0.073
+Uterine Corpus Endometrioid Carcinoma,0.894,0.913,0.887,0.898,0.014,0.923,-0.025
+Head & Neck Squamous Cell Carcinoma,0.942,0.885,0.923,0.917,0.029,0.954,-0.038
+Pancreatic Adenocarcinoma,0.954,0.92,0.911,0.928,0.022,0.967,-0.039
+Kidney Papillary Cell Carcinoma,0.931,0.906,0.952,0.93,0.023,0.945,-0.016
+Bladder Urothelial Carcinoma,0.935,0.917,0.945,0.932,0.014,0.965,-0.033
+Stomach Adenocarcinoma,0.93,0.949,0.935,0.938,0.01,0.962,-0.024
+Lung Adenocarcinoma,0.943,0.938,0.935,0.939,0.004,0.97,-0.031
+Sarcoma,0.962,0.926,0.955,0.948,0.019,0.977,-0.029
+Thymoma,0.947,0.929,0.984,0.953,0.028,0.983,-0.03
+Brain Lower Grade Glioma,0.968,0.95,0.96,0.96,0.009,1.0,-0.04
+Kidney Clear Cell Carcinoma,0.962,0.959,0.973,0.965,0.007,0.977,-0.012
+Skin Cutaneous Melanoma,0.98,0.96,0.96,0.967,0.011,0.98,-0.013
+Colon Adenocarcinoma,1.0,0.964,0.966,0.976,0.02,0.986,-0.009
+Testicular Germ Cell Tumor,0.987,0.986,0.96,0.978,0.015,1.0,-0.022
+Liver Hepatocellular Carcinoma,0.983,0.983,0.983,0.983,0.0,0.994,-0.011
+Pheochromocytoma & Paraganglioma,0.978,0.989,0.988,0.985,0.006,0.977,0.008
+Breast Invasive Carcinoma,0.989,0.987,0.994,0.99,0.004,0.996,-0.006
+Thyroid Carcinoma,1.0,0.988,0.996,0.995,0.006,1.0,-0.005
+Ovarian Serous Cystadenocarcinoma,1.0,0.995,0.995,0.997,0.003,1.0,-0.003
+Prostate Adenocarcinoma,1.0,1.0,0.996,0.999,0.002,1.0,-0.001

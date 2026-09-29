@@ -1,0 +1,16 @@
+dataset,model,mode,gene_pool,pathway_pool,D,data_dir,n_seeds,bal_acc_mean,bal_acc_sd,log_loss_mean,minutes_mean
+gtex,KG-HTT,sum,mean,mean,32,data/prepared,1,0.9367599860910948,,0.27021491527557373,75.2
+gtex,KG-HTT,sum,attention,mean,64,data/prepared,3,0.925588540222478,0.009385962755175515,0.2153364767630895,75.43333333333334
+gtex,LR,-,-,-,-,data/prepared,1,0.9580275966659937,,0.2053977996110916,0.14
+gtex,XGB,-,-,-,-,data/prepared,1,0.9552244477451027,,0.1452610343694687,8.18
+gtex,RF,-,-,-,-,data/prepared,1,0.9397435997947048,,0.3054540997290323,0.51
+tcga,KG-HTT,sum,mean,mean,32,data/prepared,1,0.930096366832768,,0.23078401386737823,100.3
+tcga,KG-HTT,sum,mean,attention,32,data/prepared,1,0.9290731445820543,,0.25108352303504944,94.9
+tcga,KG-HTT,sum,mean,multi_attention,32,data/prepared,1,0.9325883389564064,,0.21833038330078125,79.3
+tcga,KG-HTT,sum,attention,mean,32,data/prepared,1,0.9402774327214258,,0.19365422427654266,77.0
+tcga,KG-HTT,sum,attention,multi_attention,32,data/prepared,1,0.9376264307401345,,0.21861949563026428,72.4
+tcga,KG-HTT,sum,attention,mean,64,data/prepared,3,0.9442918743529312,0.004928498779024158,0.19651629527409872,107.03333333333335
+tcga,KG-HTT,concat,attention,mean,64,data/prepared,2,0.9330749540483287,0.009486677123281339,0.22624405473470688,89.65
+tcga,LR,-,-,-,-,data/prepared,1,0.9718148608021014,,0.10787441581487656,0.07
+tcga,XGB,-,-,-,-,data/prepared,1,0.9674864721013936,,0.10997512936592102,10.73
+tcga,RF,-,-,-,-,data/prepared,1,0.9447871117510765,,0.39791607599502765,0.5
