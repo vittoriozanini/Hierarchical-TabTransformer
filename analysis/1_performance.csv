@@ -1,0 +1,11 @@
+dataset,model,balanced_acc,macro_f1,log_loss,auc
+tcga,"KG-HTT (3 seeds, mean ± sd)",0.944 ± 0.005,0.943,0.197,0.9984
+tcga,KG-HTT ensemble of 3 seeds,0.958,0.955,0.143,0.9988
+tcga,Logistic regression,0.972,0.972,0.108,0.9997
+tcga,XGBoost,0.967,0.969,0.110,0.9993
+tcga,Random forest,0.945,0.948,0.398,0.9986
+gtex,"KG-HTT (3 seeds, mean ± sd)",0.926 ± 0.009,0.927,0.215,0.9965
+gtex,KG-HTT ensemble of 3 seeds,0.942,0.946,0.178,0.9974
+gtex,Logistic regression,0.958,0.958,0.205,0.9984
+gtex,XGBoost,0.955,0.957,0.145,0.9973
+gtex,Random forest,0.940,0.942,0.305,0.9970
