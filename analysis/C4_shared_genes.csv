@@ -1,8 +1,0 @@
-dataset,gene,n_pathways,max_pathway,max_drop,min_pathway,min_drop,ratio
-gtex,UGT2A3,2,Pentose and glucuronate interconversions,9.632962090666553e-06,Retinol metabolism,4.415426935633349e-06,2.1816603991171695
-gtex,UGT1A10,2,Pentose and glucuronate interconversions,3.0734709330904053e-06,Retinol metabolism,9.132283074198e-07,3.0734709330904053
-gtex,UGT2B7,2,Retinol metabolism,-2.6864664881554035e-07,Pentose and glucuronate interconversions,-3.761478832853271e-06,-0.07142048666315592
-gtex,UGT1A1,2,Retinol metabolism,-5.189861569387944e-07,Pentose and glucuronate interconversions,-1.340678759897962e-06,-0.38710701807366144
-gtex,UGT2B15,2,Retinol metabolism,-2.857191222060962e-06,Pentose and glucuronate interconversions,-4.008412361033997e-06,-0.712798725459456
-gtex,UGT1A6,2,Retinol metabolism,-3.7580728530217655e-06,Pentose and glucuronate interconversions,-7.120626313361633e-06,-0.5277727952062109
-gtex,UGT1A7,2,Retinol metabolism,-4.4324568340137205e-06,Pentose and glucuronate interconversions,-7.487620626189795e-06,-0.5919713424729496
